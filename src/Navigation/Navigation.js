@@ -12,7 +12,16 @@ export default function Navigation() {
     setValue(newValue);
   };
 const handleFirstClick = ()=>{
-    return history("/first")
+    return history("/")
+}
+const handleSecondClick = ()=>{
+  return history("/first")
+}
+const handleThirdClick = ()=>{
+  return history("/second")
+}
+const handleFourthClick = ()=>{
+  return history("/third")
 }
 
 
@@ -25,12 +34,19 @@ const handleFirstClick = ()=>{
         indicatorColor="secondary"
         aria-label="secondary tabs example"
       >
-        <div onClick={handleFirstClick}>
-        <Tab value="one" label="First Video" />
+         <div onClick={handleFirstClick}>
+        <Tab value="one" label="Home" />
+        </div>
+        <div onClick={handleSecondClick}>
+        <Tab value="two" label="Scenario #1" />
         </div>
         {/* <Tab value="one" label="Item One" /> */}
-        <Tab value="two" label="Second Video" />
-        <Tab value="three" label="Third Video" />
+        <div onClick={handleThirdClick}>
+        <Tab value="three" label="Scenario #2" />
+        </div>
+        <div onClick={handleFourthClick}>
+        <Tab value="four" label="Scenario #3" />
+        </div>
       </Tabs>
     </Box>
   );
