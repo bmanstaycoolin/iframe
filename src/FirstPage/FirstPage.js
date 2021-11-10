@@ -10,9 +10,9 @@ export default function App() {
       <h1>Sex Offender Scenario #1</h1>
 
       <p className="firstScenario">
-        This is a first scenario involving ____
+        This first scenario involves a teacher and a kid where the teacher invites the child over to play with his child. Watch to see whats wrong with this scenario.
       </p>
-      <YoutubeEmbed embedId="BuGgwyQ_U1U" />
+      <YoutubeEmbed embedId="nP5rd2pGXHY" />
     </div>
   );
 }
