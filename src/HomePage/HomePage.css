@@ -1,7 +1,12 @@
 .title {
     color: blue;
+    size: 100%
 }
 .intro{
     color: black;
     font-size: 32px;
+}
+.background{
+    background-image: url(./images/logoHome.png);
+    background-size: 20%;
 }
