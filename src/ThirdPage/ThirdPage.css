@@ -11,8 +11,10 @@
     height: 100%;
     width: 100%;
     position: absolute;
+
   }  
   .thirdScenario{
     color: hsl(192, 71%, 33%);
     font-size: 24px;
   }
+
