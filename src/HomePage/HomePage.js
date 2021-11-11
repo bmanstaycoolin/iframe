@@ -5,7 +5,7 @@ import Navigation from "../Navigation/Navigation"
 
 function Home(){
     return (
-        <div>
+        <div className="background">
             {/* <h1 className="title">Home</h1>
             <Link to="/home">Home</Link>
             <Link to="/first">FirstPage</Link> */}
