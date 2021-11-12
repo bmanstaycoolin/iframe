@@ -1,7 +1,6 @@
 .video-responsive {
     overflow: hidden;
     padding-bottom: 56.25%;
-    position: relative;
     height: 0;
   }
   
@@ -10,8 +9,12 @@
     top: 0;
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: fixed;
   }  
   .firstScenario{
-    color: black
-  }
+    color: hsl(192, 71%, 33%);
+    font-size: 24px;
+
+    position: absolute;
+  }  
+ 
